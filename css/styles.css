@@ -1,0 +1,44 @@
+:root {
+    /* Custom propertys */
+    /* Paleta de colores */
+    --rojo: #FF3B3F;
+    --celeste: #CAEBF2;
+    --primario: #A9A9A9;;
+    --secundario: #EFEFEF;
+}
+
+/* GLOBALES */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    box-sizing: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #a9a9a9;
+}
+
+/*tipografia*/
+
+h1{
+    font-size: 2rem;
+    color: var(--secundario)
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul li{
+    display: inline-block;
+}
